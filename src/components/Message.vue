@@ -3,7 +3,7 @@
   <div class="message">
     <!-- Logo -->
     <div class="logo">
-      <img class="logo-img" :src="siteLogo" alt="logo" />
+     <!--  <img class="logo-img" :src="siteLogo" alt="logo" />-->
       <div :class="{ name: true, 'text-hidden': true, long: siteUrl[0].length >= 6 }">
         <span class="bg">{{ siteUrl[0] }}</span>
         <span class="sm">.{{ siteUrl[1] }}</span>
@@ -101,7 +101,7 @@ watch(
       width: 100%;
       padding-left: 22px;
       transform: translateY(-8px);
-      font-family: "Pacifico-Regular";
+      font-family: "mcctv-2";
 
       .bg {
         font-size: 5rem;
@@ -149,7 +149,7 @@ watch(
 
         p {
           &:nth-of-type(1) {
-            font-family: "Pacifico-Regular";
+            font-family: "mcctv-2";
           }
         }
       }

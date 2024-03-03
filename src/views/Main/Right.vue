@@ -38,7 +38,7 @@ const siteUrl = computed(() => {
   margin-left: 0.75rem;
   .logo {
     width: 100%;
-    font-family: "Pacifico-Regular";
+    font-family: "mcctv-2";
     font-size: 1.75rem;
     position: fixed;
     top: 6%;
